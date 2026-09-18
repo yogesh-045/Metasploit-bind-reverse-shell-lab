@@ -534,21 +534,7 @@ Screenshots are provided as supporting evidence for the documented workflow.
 
 ---
 
-# 🚀 11. Future Improvements
-
-Possible future extensions of this project include:
-
-* Adding a dedicated network diagram.
-* Adding Wireshark traffic analysis.
-* Documenting detection opportunities for SOC analysts.
-* Mapping observed activity to MITRE ATT&CK techniques.
-* Creating IDS detection rules for reverse/bind shell traffic.
-* Adding defensive recommendations.
-* Building a small SOC-style monitoring workflow around the lab.
-
----
-
-# 📚 12. References
+# 📚 11. References
 
 * [Metasploit Framework](https://github.com/rapid7/metasploit-framework)
 * [Metasploit Documentation](https://docs.metasploit.com/)
