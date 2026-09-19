@@ -81,11 +81,11 @@ metasploit-bind-reverse-shell-lab/
 │   ├── ...
 │   │
 │   └── post-exploitation/
-│       ├── post_user.png
-│       ├── post_hostname.png
-│       ├── post_system_info.png
-│       ├── post_network_info.png
-│       └── post_processes.png
+|   ├── 01_user.png
+|   ├── 02_hostname.png
+|   ├── 03_system_info.png
+|   ├── 04_network_info.png
+|   └── 05_processes.png
 │
 └── documentation/
     ├── reverse-tcp.md
@@ -381,7 +381,7 @@ This confirmed that the shell had root-level privileges in the intentionally vul
 
 📸 **Evidence:**
 
-`post-exploitation/post_user.png`
+`post-exploitation/01_user.png`
 
 ---
 
@@ -403,7 +403,7 @@ This confirmed the hostname of the target system.
 
 📸 **Evidence:**
 
-`post-exploitation/post_hostname.png`
+`post-exploitation/02_hostname.png`
 
 ---
 
@@ -425,7 +425,7 @@ This information was also useful when selecting an architecture-compatible paylo
 
 📸 **Evidence:**
 
-`post-exploitation/post_system_info.png`
+`post-exploitation/03_system_info.png`
 
 ---
 
@@ -441,7 +441,7 @@ This was used to inspect the target's network interfaces and IP configuration.
 
 📸 **Evidence:**
 
-`post-exploitation/post_network_info.png`
+`post-exploitation/04_network_info.png`
 
 ---
 
@@ -459,7 +459,7 @@ Process enumeration is commonly performed during authorized security assessments
 
 📸 **Evidence:**
 
-`post-exploitation/post_processes.png`
+`post-exploitation/05_processes.png`
 
 ---
 
